@@ -17,35 +17,26 @@ namespace proj1
             InitializeComponent();
         }
 
-        private void ButtonPlus_Click(object sender, EventArgs e)
+        private void ButtonClick(object sender, EventArgs e)
         {
             double Num1 = Convert.ToDouble(TextBoxNum1.Text);
             double Num2 = Convert.ToDouble(TextBoxNum2.Text);
-            double Result = Num1 + Num2;
-            TextBoxResult.Text = Result.ToString();
-        }
-
-        private void ButtonMinus_Click(object sender, EventArgs e)
-        {
-            double Num1 = Convert.ToDouble(TextBoxNum1.Text);
-            double Num2 = Convert.ToDouble(TextBoxNum2.Text);
-            double Result = Num1 - Num2;
-            TextBoxResult.Text = Result.ToString();
-        }
-
-        private void ButtonMultiply_Click(object sender, EventArgs e)
-        {
-            double Num1 = Convert.ToDouble(TextBoxNum1.Text);
-            double Num2 = Convert.ToDouble(TextBoxNum2.Text);
-            double Result = Num1 * Num2;
-            TextBoxResult.Text = Result.ToString();
-        }
-
-        private void ButtonDivide_Click(object sender, EventArgs e)
-        {
-            double Num1 = Convert.ToDouble(TextBoxNum1.Text);
-            double Num2 = Convert.ToDouble(TextBoxNum2.Text);
-            double Result = Num1 / Num2;
+            double Result = 0;
+            switch (((Button)sender).Name)
+            {
+                case "ButtonPlus":
+                    Result = Num1 + Num2;
+                    break;
+                case "ButtonMultiply":
+                    Result = Num1 * Num2;
+                    break;
+                case "ButtonMinus":
+                    Result = Num1 - Num2;
+                    break;
+                case "ButtonDivide":
+                    Result = Num1 / Num2;
+                    break;
+            }
             TextBoxResult.Text = Result.ToString();
         }
     }

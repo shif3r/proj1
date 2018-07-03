@@ -28,68 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ButtonPlus = new System.Windows.Forms.Button();
-            this.ButtonMinus = new System.Windows.Forms.Button();
-            this.ButtonMultiply = new System.Windows.Forms.Button();
-            this.ButtonDivide = new System.Windows.Forms.Button();
-            this.TextBoxNum1 = new System.Windows.Forms.TextBox();
-            this.TextBoxNum2 = new System.Windows.Forms.TextBox();
+            this.Plus = new System.Windows.Forms.Button();
+            this.Minus = new System.Windows.Forms.Button();
+            this.Multiply = new System.Windows.Forms.Button();
+            this.Divide = new System.Windows.Forms.Button();
+            this.TextBoxNumber1 = new System.Windows.Forms.TextBox();
+            this.TextBoxNumber2 = new System.Windows.Forms.TextBox();
             this.TextBoxResult = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // ButtonPlus
+            // Plus
             // 
-            this.ButtonPlus.Location = new System.Drawing.Point(12, 64);
-            this.ButtonPlus.Name = "ButtonPlus";
-            this.ButtonPlus.Size = new System.Drawing.Size(75, 23);
-            this.ButtonPlus.TabIndex = 0;
-            this.ButtonPlus.Text = "+";
-            this.ButtonPlus.UseVisualStyleBackColor = true;
-            this.ButtonPlus.Click += new System.EventHandler(this.ButtonClick);
+            this.Plus.Location = new System.Drawing.Point(12, 64);
+            this.Plus.Name = "Plus";
+            this.Plus.Size = new System.Drawing.Size(75, 23);
+            this.Plus.TabIndex = 0;
+            this.Plus.Text = "+";
+            this.Plus.UseVisualStyleBackColor = true;
+            this.Plus.Click += new System.EventHandler(this.ButtonClick);
             // 
-            // ButtonMinus
+            // Minus
             // 
-            this.ButtonMinus.Location = new System.Drawing.Point(93, 64);
-            this.ButtonMinus.Name = "ButtonMinus";
-            this.ButtonMinus.Size = new System.Drawing.Size(75, 23);
-            this.ButtonMinus.TabIndex = 1;
-            this.ButtonMinus.Text = "-";
-            this.ButtonMinus.UseVisualStyleBackColor = true;
-            this.ButtonMinus.Click += new System.EventHandler(this.ButtonClick);
+            this.Minus.Location = new System.Drawing.Point(93, 64);
+            this.Minus.Name = "Minus";
+            this.Minus.Size = new System.Drawing.Size(75, 23);
+            this.Minus.TabIndex = 1;
+            this.Minus.Text = "-";
+            this.Minus.UseVisualStyleBackColor = true;
+            this.Minus.Click += new System.EventHandler(this.ButtonClick);
             // 
-            // ButtonMultiply
+            // Multiply
             // 
-            this.ButtonMultiply.Location = new System.Drawing.Point(12, 93);
-            this.ButtonMultiply.Name = "ButtonMultiply";
-            this.ButtonMultiply.Size = new System.Drawing.Size(75, 23);
-            this.ButtonMultiply.TabIndex = 2;
-            this.ButtonMultiply.Text = "*";
-            this.ButtonMultiply.UseVisualStyleBackColor = true;
-            this.ButtonMultiply.Click += new System.EventHandler(this.ButtonClick);
+            this.Multiply.Location = new System.Drawing.Point(12, 93);
+            this.Multiply.Name = "Multiply";
+            this.Multiply.Size = new System.Drawing.Size(75, 23);
+            this.Multiply.TabIndex = 2;
+            this.Multiply.Text = "*";
+            this.Multiply.UseVisualStyleBackColor = true;
+            this.Multiply.Click += new System.EventHandler(this.ButtonClick);
             // 
-            // ButtonDivide
+            // Divide
             // 
-            this.ButtonDivide.Location = new System.Drawing.Point(93, 93);
-            this.ButtonDivide.Name = "ButtonDivide";
-            this.ButtonDivide.Size = new System.Drawing.Size(75, 23);
-            this.ButtonDivide.TabIndex = 3;
-            this.ButtonDivide.Text = "/";
-            this.ButtonDivide.UseVisualStyleBackColor = true;
-            this.ButtonDivide.Click += new System.EventHandler(this.ButtonClick);
+            this.Divide.Location = new System.Drawing.Point(93, 93);
+            this.Divide.Name = "Divide";
+            this.Divide.Size = new System.Drawing.Size(75, 23);
+            this.Divide.TabIndex = 3;
+            this.Divide.Text = "/";
+            this.Divide.UseVisualStyleBackColor = true;
+            this.Divide.Click += new System.EventHandler(this.ButtonClick);
             // 
-            // TextBoxNum1
+            // TextBoxNumber1
             // 
-            this.TextBoxNum1.Location = new System.Drawing.Point(12, 12);
-            this.TextBoxNum1.Name = "TextBoxNum1";
-            this.TextBoxNum1.Size = new System.Drawing.Size(155, 20);
-            this.TextBoxNum1.TabIndex = 4;
+            this.TextBoxNumber1.Location = new System.Drawing.Point(12, 12);
+            this.TextBoxNumber1.Name = "TextBoxNumber1";
+            this.TextBoxNumber1.Size = new System.Drawing.Size(155, 20);
+            this.TextBoxNumber1.TabIndex = 4;
             // 
-            // TextBoxNum2
+            // TextBoxNumber2
             // 
-            this.TextBoxNum2.Location = new System.Drawing.Point(12, 38);
-            this.TextBoxNum2.Name = "TextBoxNum2";
-            this.TextBoxNum2.Size = new System.Drawing.Size(155, 20);
-            this.TextBoxNum2.TabIndex = 5;
+            this.TextBoxNumber2.Location = new System.Drawing.Point(12, 38);
+            this.TextBoxNumber2.Name = "TextBoxNumber2";
+            this.TextBoxNumber2.Size = new System.Drawing.Size(155, 20);
+            this.TextBoxNumber2.TabIndex = 5;
             // 
             // TextBoxResult
             // 
@@ -104,12 +104,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(341, 128);
             this.Controls.Add(this.TextBoxResult);
-            this.Controls.Add(this.TextBoxNum2);
-            this.Controls.Add(this.TextBoxNum1);
-            this.Controls.Add(this.ButtonDivide);
-            this.Controls.Add(this.ButtonMultiply);
-            this.Controls.Add(this.ButtonMinus);
-            this.Controls.Add(this.ButtonPlus);
+            this.Controls.Add(this.TextBoxNumber2);
+            this.Controls.Add(this.TextBoxNumber1);
+            this.Controls.Add(this.Divide);
+            this.Controls.Add(this.Multiply);
+            this.Controls.Add(this.Minus);
+            this.Controls.Add(this.Plus);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Калькулятор";
@@ -120,12 +120,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button ButtonPlus;
-        private System.Windows.Forms.Button ButtonMinus;
-        private System.Windows.Forms.Button ButtonMultiply;
-        private System.Windows.Forms.Button ButtonDivide;
-        private System.Windows.Forms.TextBox TextBoxNum1;
-        private System.Windows.Forms.TextBox TextBoxNum2;
+        private System.Windows.Forms.Button Plus;
+        private System.Windows.Forms.Button Minus;
+        private System.Windows.Forms.Button Multiply;
+        private System.Windows.Forms.Button Divide;
+        private System.Windows.Forms.TextBox TextBoxNumber1;
+        private System.Windows.Forms.TextBox TextBoxNumber2;
         private System.Windows.Forms.TextBox TextBoxResult;
     }
 }

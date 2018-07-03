@@ -19,22 +19,22 @@ namespace proj1
 
         private void ButtonClick(object sender, EventArgs e)
         {
-            double Num1 = Convert.ToDouble(TextBoxNum1.Text);
-            double Num2 = Convert.ToDouble(TextBoxNum2.Text);
+            double Number1 = Convert.ToDouble(TextBoxNumber1.Text);
+            double Number2 = Convert.ToDouble(TextBoxNumber2.Text);
             double Result = 0;
             switch (((Button)sender).Name)
             {
-                case "ButtonPlus":
-                    Result = Num1 + Num2;
+                case "Plus":
+                    Result = Number1 + Number2;
                     break;
-                case "ButtonMultiply":
-                    Result = Num1 * Num2;
+                case "Multiply":
+                    Result = Number1 * Number2;
                     break;
-                case "ButtonMinus":
-                    Result = Num1 - Num2;
+                case "Minus":
+                    Result = Number1 - Number2;
                     break;
-                case "ButtonDivide":
-                    Result = Num1 / Num2;
+                case "Divide":
+                    Result = Number1 / Number2;
                     break;
             }
             TextBoxResult.Text = Result.ToString();

@@ -45,26 +45,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddictionCalculator.cs" />
-    <Compile Include="MinusCalculator.cs" />
-    <Compile Include="PowECalculator.cs" />
-    <Compile Include="CosinusCalculator.cs" />
-    <Compile Include="ISingleArgumentCalculator.cs" />
-    <Compile Include="LogECalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\AddictionCalculator.cs" />
+    <Compile Include="SingleArgumentCalculators\MinusCalculator.cs" />
+    <Compile Include="SingleArgumentCalculators\PowECalculator.cs" />
+    <Compile Include="SingleArgumentCalculators\CosinusCalculator.cs" />
+    <Compile Include="Interfaces\ISingleArgumentCalculator.cs" />
+    <Compile Include="SingleArgumentCalculators\LogECalculator.cs" />
     <Compile Include="SingleArgumentFactory.cs" />
-    <Compile Include="DivisionCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\MaxCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\MinCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\RemainderCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\DivisionCalculator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="IArgumentsCalculator.cs" />
-    <Compile Include="MultiplicationCalculator.cs" />
+    <Compile Include="Interfaces\IArgumentsCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\BRootOfACalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\MultiplicationCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SinusCalculator.cs" />
-    <Compile Include="SubstractionCalculator.cs" />
+    <Compile Include="SingleArgumentCalculators\SinusCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\LogBofACalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\PowerCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\SubstractionCalculator.cs" />
     <Compile Include="TwoArgumentsFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

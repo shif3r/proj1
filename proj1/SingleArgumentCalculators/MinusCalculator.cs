@@ -1,4 +1,4 @@
-﻿namespace proj1
+﻿namespace proj1.SingleArgumentCalculators
 {
     public class MinusCalculator : ISingleArgumentCalculator
     {

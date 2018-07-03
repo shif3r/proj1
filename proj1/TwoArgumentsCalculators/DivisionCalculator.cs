@@ -1,4 +1,4 @@
-﻿namespace proj1
+﻿namespace proj1.TwoArgumentsCalculators
 {
     public class DivisionCalculator : ITwoArgumentsCalculator
     {

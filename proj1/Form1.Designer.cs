@@ -41,6 +41,13 @@
             this.button3 = new System.Windows.Forms.Button();
             this.powE = new System.Windows.Forms.Button();
             this.Inversion = new System.Windows.Forms.Button();
+            this.Power = new System.Windows.Forms.Button();
+            this.Minimum = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Maximum = new System.Windows.Forms.Button();
+            this.LogBofA = new System.Windows.Forms.Button();
+            this.Remainder = new System.Windows.Forms.Button();
+            this.BRootOfA = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -163,11 +170,81 @@
             this.Inversion.UseVisualStyleBackColor = true;
             this.Inversion.Click += new System.EventHandler(this.Button2Click);
             // 
+            // Power
+            // 
+            this.Power.Location = new System.Drawing.Point(12, 122);
+            this.Power.Name = "Power";
+            this.Power.Size = new System.Drawing.Size(75, 23);
+            this.Power.TabIndex = 3;
+            this.Power.Text = "a^b";
+            this.Power.UseVisualStyleBackColor = true;
+            this.Power.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Minimum
+            // 
+            this.Minimum.Location = new System.Drawing.Point(93, 122);
+            this.Minimum.Name = "Minimum";
+            this.Minimum.Size = new System.Drawing.Size(75, 23);
+            this.Minimum.TabIndex = 3;
+            this.Minimum.Text = "Min";
+            this.Minimum.UseVisualStyleBackColor = true;
+            this.Minimum.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(93, 151);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Min";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Maximum
+            // 
+            this.Maximum.Location = new System.Drawing.Point(93, 151);
+            this.Maximum.Name = "Maximum";
+            this.Maximum.Size = new System.Drawing.Size(75, 23);
+            this.Maximum.TabIndex = 3;
+            this.Maximum.Text = "Max";
+            this.Maximum.UseVisualStyleBackColor = true;
+            this.Maximum.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // LogBofA
+            // 
+            this.LogBofA.Location = new System.Drawing.Point(12, 151);
+            this.LogBofA.Name = "LogBofA";
+            this.LogBofA.Size = new System.Drawing.Size(75, 23);
+            this.LogBofA.TabIndex = 3;
+            this.LogBofA.Text = "LogB(A)";
+            this.LogBofA.UseVisualStyleBackColor = true;
+            this.LogBofA.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Remainder
+            // 
+            this.Remainder.Location = new System.Drawing.Point(12, 180);
+            this.Remainder.Name = "Remainder";
+            this.Remainder.Size = new System.Drawing.Size(75, 23);
+            this.Remainder.TabIndex = 3;
+            this.Remainder.Text = "a%b";
+            this.Remainder.UseVisualStyleBackColor = true;
+            this.Remainder.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // BRootOfA
+            // 
+            this.BRootOfA.Location = new System.Drawing.Point(93, 180);
+            this.BRootOfA.Name = "BRootOfA";
+            this.BRootOfA.Size = new System.Drawing.Size(75, 23);
+            this.BRootOfA.TabIndex = 3;
+            this.BRootOfA.Text = "a^1/b";
+            this.BRootOfA.UseVisualStyleBackColor = true;
+            this.BRootOfA.Click += new System.EventHandler(this.ButtonClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(341, 128);
+            this.ClientSize = new System.Drawing.Size(341, 213);
             this.Controls.Add(this.Inversion);
             this.Controls.Add(this.powE);
             this.Controls.Add(this.button3);
@@ -177,6 +254,13 @@
             this.Controls.Add(this.TextBoxResult);
             this.Controls.Add(this.TextBoxNumber2);
             this.Controls.Add(this.TextBoxNumber1);
+            this.Controls.Add(this.BRootOfA);
+            this.Controls.Add(this.Remainder);
+            this.Controls.Add(this.LogBofA);
+            this.Controls.Add(this.Maximum);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Minimum);
+            this.Controls.Add(this.Power);
             this.Controls.Add(this.Divide);
             this.Controls.Add(this.Multiply);
             this.Controls.Add(this.Minus);
@@ -204,6 +288,13 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button powE;
         private System.Windows.Forms.Button Inversion;
+        private System.Windows.Forms.Button Power;
+        private System.Windows.Forms.Button Minimum;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Maximum;
+        private System.Windows.Forms.Button LogBofA;
+        private System.Windows.Forms.Button Remainder;
+        private System.Windows.Forms.Button BRootOfA;
     }
 }
 

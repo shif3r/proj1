@@ -1,5 +1,5 @@
 ﻿using System;
-namespace proj1
+namespace proj1.SingleArgumentCalculators
 {
     public class LogECalculator : ISingleArgumentCalculator
     {

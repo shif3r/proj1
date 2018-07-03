@@ -1,4 +1,5 @@
 ﻿using System;
+using proj1.TwoArgumentsCalculators;
 
 namespace proj1
 {
@@ -16,6 +17,18 @@ namespace proj1
                     return new AddictionCalculator();
                 case "Minus":
                     return new SubstractionCalculator();
+                case "Power":
+                    return new PowerCalculator();
+                case "Remainder":
+                    return new RemainderCalculator();
+                case "Maximum":
+                    return new MaxCalculator();
+                case "Minimum":
+                    return new MinCalculator();
+                case "LogBofA":
+                    return new LogBofACalculator();
+                case "BRootOfA":
+                    return new BRootOfACalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

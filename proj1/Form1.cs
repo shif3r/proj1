@@ -21,22 +21,8 @@ namespace proj1
         {
             double firstNumber = Convert.ToDouble(TextBoxNumber1.Text);
             double secondNumber = Convert.ToDouble(TextBoxNumber2.Text);
-            double result = 0;
-            switch (((Button)sender).Name)
-            {
-                case "Plus":
-                    result = firstNumber + secondNumber;
-                    break;
-                case "Multiply":
-                    result = firstNumber * secondNumber;
-                    break;
-                case "Minus":
-                    result = firstNumber - secondNumber;
-                    break;
-                case "Divide":
-                    result = firstNumber / secondNumber;
-                    break;
-            }
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstNumber, secondNumber);
             TextBoxResult.Text = result.ToString();
         }
     }

@@ -36,7 +36,7 @@
             this.TextBoxNumber2 = new System.Windows.Forms.TextBox();
             this.TextBoxResult = new System.Windows.Forms.TextBox();
             this.Sinus = new System.Windows.Forms.Button();
-            this.cosinus = new System.Windows.Forms.Button();
+            this.Cosinus = new System.Windows.Forms.Button();
             this.Loge = new System.Windows.Forms.Button();
             this.Logarifm2 = new System.Windows.Forms.Button();
             this.powE = new System.Windows.Forms.Button();
@@ -125,15 +125,15 @@
             this.Sinus.UseVisualStyleBackColor = true;
             this.Sinus.Click += new System.EventHandler(this.Button2Click);
             // 
-            // cosinus
+            // Cosinus
             // 
-            this.cosinus.Location = new System.Drawing.Point(257, 63);
-            this.cosinus.Name = "cosinus";
-            this.cosinus.Size = new System.Drawing.Size(75, 23);
-            this.cosinus.TabIndex = 8;
-            this.cosinus.Text = "Cos(a)";
-            this.cosinus.UseVisualStyleBackColor = true;
-            this.cosinus.Click += new System.EventHandler(this.Button2Click);
+            this.Cosinus.Location = new System.Drawing.Point(257, 63);
+            this.Cosinus.Name = "Cosinus";
+            this.Cosinus.Size = new System.Drawing.Size(75, 23);
+            this.Cosinus.TabIndex = 8;
+            this.Cosinus.Text = "Cos(a)";
+            this.Cosinus.UseVisualStyleBackColor = true;
+            this.Cosinus.Click += new System.EventHandler(this.Button2Click);
             // 
             // Loge
             // 
@@ -298,7 +298,7 @@
             this.Controls.Add(this.powE);
             this.Controls.Add(this.Logarifm2);
             this.Controls.Add(this.Loge);
-            this.Controls.Add(this.cosinus);
+            this.Controls.Add(this.Cosinus);
             this.Controls.Add(this.Sinus);
             this.Controls.Add(this.TextBoxResult);
             this.Controls.Add(this.TextBoxNumber2);
@@ -332,7 +332,7 @@
         private System.Windows.Forms.TextBox TextBoxNumber2;
         private System.Windows.Forms.TextBox TextBoxResult;
         private System.Windows.Forms.Button Sinus;
-        private System.Windows.Forms.Button cosinus;
+        private System.Windows.Forms.Button Cosinus;
         private System.Windows.Forms.Button Loge;
         private System.Windows.Forms.Button Logarifm2;
         private System.Windows.Forms.Button powE;

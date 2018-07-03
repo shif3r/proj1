@@ -45,6 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SingleArgumentCalculators\ArcCosinusCalculator.cs" />
+    <Compile Include="SingleArgumentCalculators\ArcSinusCalculator.cs" />
+    <Compile Include="SingleArgumentCalculators\Log2Calculator.cs" />
+    <Compile Include="SingleArgumentCalculators\Logarifm10Calculator.cs" />
+    <Compile Include="SingleArgumentCalculators\Pow2Calculator.cs" />
     <Compile Include="TwoArgumentsCalculators\AddictionCalculator.cs" />
     <Compile Include="SingleArgumentCalculators\MinusCalculator.cs" />
     <Compile Include="SingleArgumentCalculators\PowECalculator.cs" />

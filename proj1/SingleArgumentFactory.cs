@@ -19,6 +19,16 @@ namespace proj1
                     return new PowECalculator();
                 case "Inversion":
                     return new MinusCalculator();
+                case "Logarifm2":
+                    return new Logarifm2Calculator();
+                case "Logarifm10":
+                    return new Logarifm10Calculator();
+                case "Pow2":
+                    return new Pow2Calculator();
+                case "ArcSinus":
+                    return new ArcSinusCalculator();
+                case "ArcCosinus":
+                    return new ArcCosinusCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

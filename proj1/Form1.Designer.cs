@@ -38,7 +38,7 @@
             this.Sinus = new System.Windows.Forms.Button();
             this.cosinus = new System.Windows.Forms.Button();
             this.Loge = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Logarifm2 = new System.Windows.Forms.Button();
             this.powE = new System.Windows.Forms.Button();
             this.Inversion = new System.Windows.Forms.Button();
             this.Power = new System.Windows.Forms.Button();
@@ -48,6 +48,10 @@
             this.LogBofA = new System.Windows.Forms.Button();
             this.Remainder = new System.Windows.Forms.Button();
             this.BRootOfA = new System.Windows.Forms.Button();
+            this.Logarifm10 = new System.Windows.Forms.Button();
+            this.Pow2 = new System.Windows.Forms.Button();
+            this.ArcSinus = new System.Windows.Forms.Button();
+            this.ArcCosinus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -141,14 +145,15 @@
             this.Loge.UseVisualStyleBackColor = true;
             this.Loge.Click += new System.EventHandler(this.Button2Click);
             // 
-            // button3
+            // Logarifm2
             // 
-            this.button3.Location = new System.Drawing.Point(257, 93);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Logarifm2.Location = new System.Drawing.Point(257, 93);
+            this.Logarifm2.Name = "Logarifm2";
+            this.Logarifm2.Size = new System.Drawing.Size(75, 23);
+            this.Logarifm2.TabIndex = 10;
+            this.Logarifm2.Text = "Log2(a)";
+            this.Logarifm2.UseVisualStyleBackColor = true;
+            this.Logarifm2.Click += new System.EventHandler(this.Button2Click);
             // 
             // powE
             // 
@@ -240,14 +245,58 @@
             this.BRootOfA.UseVisualStyleBackColor = true;
             this.BRootOfA.Click += new System.EventHandler(this.ButtonClick);
             // 
+            // Logarifm10
+            // 
+            this.Logarifm10.Location = new System.Drawing.Point(175, 122);
+            this.Logarifm10.Name = "Logarifm10";
+            this.Logarifm10.Size = new System.Drawing.Size(75, 23);
+            this.Logarifm10.TabIndex = 13;
+            this.Logarifm10.Text = "Log10(a)";
+            this.Logarifm10.UseVisualStyleBackColor = true;
+            this.Logarifm10.Click += new System.EventHandler(this.Button2Click);
+            // 
+            // Pow2
+            // 
+            this.Pow2.Location = new System.Drawing.Point(256, 122);
+            this.Pow2.Name = "Pow2";
+            this.Pow2.Size = new System.Drawing.Size(75, 23);
+            this.Pow2.TabIndex = 14;
+            this.Pow2.Text = "x^2";
+            this.Pow2.UseVisualStyleBackColor = true;
+            this.Pow2.Click += new System.EventHandler(this.Button2Click);
+            // 
+            // ArcSinus
+            // 
+            this.ArcSinus.Location = new System.Drawing.Point(175, 151);
+            this.ArcSinus.Name = "ArcSinus";
+            this.ArcSinus.Size = new System.Drawing.Size(75, 23);
+            this.ArcSinus.TabIndex = 15;
+            this.ArcSinus.Text = "ArcSin(a)";
+            this.ArcSinus.UseVisualStyleBackColor = true;
+            this.ArcSinus.Click += new System.EventHandler(this.Button2Click);
+            // 
+            // ArcCosinus
+            // 
+            this.ArcCosinus.Location = new System.Drawing.Point(257, 151);
+            this.ArcCosinus.Name = "ArcCosinus";
+            this.ArcCosinus.Size = new System.Drawing.Size(75, 23);
+            this.ArcCosinus.TabIndex = 16;
+            this.ArcCosinus.Text = "ArcCos(a)";
+            this.ArcCosinus.UseVisualStyleBackColor = true;
+            this.ArcCosinus.Click += new System.EventHandler(this.Button2Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(341, 213);
+            this.Controls.Add(this.ArcCosinus);
+            this.Controls.Add(this.ArcSinus);
+            this.Controls.Add(this.Pow2);
+            this.Controls.Add(this.Logarifm10);
             this.Controls.Add(this.Inversion);
             this.Controls.Add(this.powE);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.Logarifm2);
             this.Controls.Add(this.Loge);
             this.Controls.Add(this.cosinus);
             this.Controls.Add(this.Sinus);
@@ -285,7 +334,7 @@
         private System.Windows.Forms.Button Sinus;
         private System.Windows.Forms.Button cosinus;
         private System.Windows.Forms.Button Loge;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Logarifm2;
         private System.Windows.Forms.Button powE;
         private System.Windows.Forms.Button Inversion;
         private System.Windows.Forms.Button Power;
@@ -295,6 +344,10 @@
         private System.Windows.Forms.Button LogBofA;
         private System.Windows.Forms.Button Remainder;
         private System.Windows.Forms.Button BRootOfA;
+        private System.Windows.Forms.Button Logarifm10;
+        private System.Windows.Forms.Button Pow2;
+        private System.Windows.Forms.Button ArcSinus;
+        private System.Windows.Forms.Button ArcCosinus;
     }
 }
 

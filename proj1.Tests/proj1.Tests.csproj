@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SingleArgumentCalculator\SingleArgumentCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingleArgumentCalculator\Pow2CalculatorTests.cs" />
     <Compile Include="SingleArgumentCalculator\Logarifm10CalculatorTests.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="TwoArgumentsCalculator\MultiplicationCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\DivisionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\AddictionCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\TwoArgumentsCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

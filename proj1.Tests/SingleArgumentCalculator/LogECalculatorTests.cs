@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 
 namespace proj1.Tests.SingleArgumentCalculator
 {
@@ -11,6 +12,13 @@ namespace proj1.Tests.SingleArgumentCalculator
             ISingleArgumentCalculator calculator = SingleArgumentFactory.CreateCalculator("Loge");
             double result = calculator.Calculate(1);
             Assert.AreEqual(0, result);
+        }
+
+        [Test]
+        public void CalculateTest()
+        {
+            ISingleArgumentCalculator calculator = SingleArgumentFactory.CreateCalculator("Loge");
+            Assert.Throws<Exception>(() => calculator.Calculate(0));
         }
     }
 }

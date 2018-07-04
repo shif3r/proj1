@@ -53,15 +53,11 @@
     <Compile Include="SingleArgumentCalculator\LogECalculatorTests.cs" />
     <Compile Include="SingleArgumentCalculator\SinusCalculatorTests.cs" />
     <Compile Include="SingleArgumentCalculator\CosinusCalculatorTests.cs" />
-    <Compile Include="TwoArgumentsCalculator\AddictionCalculatorHardTests.cs" />
-    <Compile Include="TwoArgumentsCalculator\DivisionCalculatorHardTests.cs" />
-    <Compile Include="TwoArgumentsCalculator\MaxCalculatorHardTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\AddictionCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\DivisionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\MaxCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\MinCalculatorTests.cs" />
-    <Compile Include="TwoArgumentsCalculator\MultiplicationCalculatorHardTests.cs" />
     <Compile Include="TwoArgumentsCalculator\MultiplicationCalculatorTests.cs" />
-    <Compile Include="TwoArgumentsCalculator\DivisionCalculatorTests.cs" />
-    <Compile Include="TwoArgumentsCalculator\AddictionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\TwoArgumentsCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup />

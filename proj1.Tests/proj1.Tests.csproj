@@ -47,15 +47,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleArgumentCalculator\Pow2CalculatorTests.cs" />
+    <Compile Include="SingleArgumentCalculator\Logarifm10CalculatorTests.cs" />
+    <Compile Include="SingleArgumentCalculator\LogECalculatorTests.cs" />
+    <Compile Include="SingleArgumentCalculator\SinusCalculatorTests.cs" />
+    <Compile Include="SingleArgumentCalculator\CosinusCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\MaxCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\MinCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\MultiplicationCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\DivisionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\AddictionCalculatorTests.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SingleArgumentCalculator\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

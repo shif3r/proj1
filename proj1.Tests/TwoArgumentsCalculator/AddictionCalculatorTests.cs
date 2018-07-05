@@ -1,4 +1,6 @@
 ﻿using NUnit.Framework;
+using proj1.Interfaces;
+
 namespace proj1.Tests.TwoArgumentsCalculator
 {
     class AddictionCalculatorTests

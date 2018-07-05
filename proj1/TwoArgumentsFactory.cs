@@ -1,10 +1,16 @@
 ﻿using System;
+using proj1.Interfaces;
 using proj1.TwoArgumentsCalculators;
 
 namespace proj1
 {
     public class TwoArgumentsFactory
     {
+        /// <summary>
+        /// Returns instance of certain two arguments calculator
+        /// </summary>
+        /// <param name="calculatorName">Name of operation</param>
+        /// <returns>The new instance of two arguments calculator</returns>
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

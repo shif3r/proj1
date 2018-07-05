@@ -1,10 +1,16 @@
 ﻿using System;
+using proj1.Interfaces;
 using proj1.SingleArgumentCalculators;
 
 namespace proj1
 {
     public class SingleArgumentFactory
     {
+        /// <summary>
+        /// Returns instance of certain single argument calculator
+        /// </summary>
+        /// <param name="calculatorName">Name of operation</param>
+        /// <returns>The new instance of single argument calculator</returns>
         public static ISingleArgumentCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

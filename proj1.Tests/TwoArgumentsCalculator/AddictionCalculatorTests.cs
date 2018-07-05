@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using proj1.Interfaces;
+using proj1.TwoArgumentsCalculators;
 
 namespace proj1.Tests.TwoArgumentsCalculator
 {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using proj1.Interfaces;
+using proj1.SingleArgumentCalculators;
+using proj1.TwoArgumentsCalculators;
 
 namespace proj1
 {

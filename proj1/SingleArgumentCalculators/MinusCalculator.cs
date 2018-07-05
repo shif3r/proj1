@@ -1,6 +1,4 @@
-﻿using proj1.Interfaces;
-
-namespace proj1.SingleArgumentCalculators
+﻿namespace proj1.SingleArgumentCalculators
 {
     public class MinusCalculator : ISingleArgumentCalculator
     {

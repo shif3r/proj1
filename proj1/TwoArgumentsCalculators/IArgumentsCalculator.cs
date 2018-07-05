@@ -1,4 +1,4 @@
-﻿namespace proj1.Interfaces
+﻿namespace proj1.TwoArgumentsCalculators
 {
     /// <summary>
     /// Programm interface for double arguments maths operations

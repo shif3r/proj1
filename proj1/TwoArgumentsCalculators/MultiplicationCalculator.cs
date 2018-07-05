@@ -1,6 +1,4 @@
-﻿using proj1.Interfaces;
-
-namespace proj1.TwoArgumentsCalculators
+﻿namespace proj1.TwoArgumentsCalculators
 {
     public class MultiplicationCalculator : ITwoArgumentsCalculator
     {

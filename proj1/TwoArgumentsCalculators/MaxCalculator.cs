@@ -1,5 +1,4 @@
 ﻿using System;
-using proj1.Interfaces;
 
 namespace proj1.TwoArgumentsCalculators
 {

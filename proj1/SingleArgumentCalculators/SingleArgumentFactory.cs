@@ -1,8 +1,6 @@
 ﻿using System;
-using proj1.Interfaces;
-using proj1.SingleArgumentCalculators;
 
-namespace proj1
+namespace proj1.SingleArgumentCalculators
 {
     public class SingleArgumentFactory
     {

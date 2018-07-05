@@ -1,8 +1,6 @@
 ﻿using System;
-using proj1.Interfaces;
-using proj1.TwoArgumentsCalculators;
 
-namespace proj1
+namespace proj1.TwoArgumentsCalculators
 {
     public class TwoArgumentsFactory
     {

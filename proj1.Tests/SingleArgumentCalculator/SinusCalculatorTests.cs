@@ -1,6 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
-using proj1.Interfaces;
+using proj1.SingleArgumentCalculators;
 
 namespace proj1.Tests.SingleArgumentCalculator
 {

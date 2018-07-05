@@ -1,4 +1,4 @@
-﻿namespace proj1.Interfaces
+﻿namespace proj1.SingleArgumentCalculators
 {
     /// <summary>
     /// Programm interface for single argument maths operations

@@ -54,9 +54,9 @@
     <Compile Include="SingleArgumentCalculators\MinusCalculator.cs" />
     <Compile Include="SingleArgumentCalculators\PowECalculator.cs" />
     <Compile Include="SingleArgumentCalculators\CosinusCalculator.cs" />
-    <Compile Include="Interfaces\ISingleArgumentCalculator.cs" />
+    <Compile Include="SingleArgumentCalculators\ISingleArgumentCalculator.cs" />
     <Compile Include="SingleArgumentCalculators\LogECalculator.cs" />
-    <Compile Include="SingleArgumentFactory.cs" />
+    <Compile Include="SingleArgumentCalculators\SingleArgumentFactory.cs" />
     <Compile Include="TwoArgumentsCalculators\MaxCalculator.cs" />
     <Compile Include="TwoArgumentsCalculators\MinCalculator.cs" />
     <Compile Include="TwoArgumentsCalculators\RemainderCalculator.cs" />
@@ -67,7 +67,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interfaces\IArgumentsCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculators\IArgumentsCalculator.cs" />
     <Compile Include="TwoArgumentsCalculators\BRootOfACalculator.cs" />
     <Compile Include="TwoArgumentsCalculators\MultiplicationCalculator.cs" />
     <Compile Include="Program.cs" />
@@ -76,7 +76,7 @@
     <Compile Include="TwoArgumentsCalculators\LogBofACalculator.cs" />
     <Compile Include="TwoArgumentsCalculators\PowerCalculator.cs" />
     <Compile Include="TwoArgumentsCalculators\SubstractionCalculator.cs" />
-    <Compile Include="TwoArgumentsFactory.cs" />
+    <Compile Include="TwoArgumentsCalculators\TwoArgumentsFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
